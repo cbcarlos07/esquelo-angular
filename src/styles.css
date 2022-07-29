@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background: #ECF0F3;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper{
+    height: 100%; 
+    width: 88%;
+    background-size: cover;
+    
+}
+
+.main-footer{
+    bottom: 0px ;
+    padding-left: 50px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
