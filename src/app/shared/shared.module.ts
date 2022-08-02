@@ -4,17 +4,18 @@ import { ModuleWithProviders, NgModule, LOCALE_ID } from "@angular/core";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { RouterModule } from "@angular/router";
 
-import { AppRoutingModule } from "../app-routing.module";
 import { FooterComponent } from "../components/footer/footer.component";
 import { HeaderComponent } from "../components/header/header.component";
 import { MenuComponent } from "../components/menu/menu.component";
+import { LoginComponent } from "../pages/login/login.component";
 
 registerLocaleData(localePt, 'pt-BR')
 @NgModule({
     declarations: [
         HeaderComponent,
         FooterComponent,
-        MenuComponent
+        MenuComponent,
+        LoginComponent,
     ],
     imports: [
         CommonModule,
@@ -28,7 +29,8 @@ registerLocaleData(localePt, 'pt-BR')
         RouterModule,
         HeaderComponent,
         FooterComponent,
-        MenuComponent
+        MenuComponent,
+        LoginComponent,
     ]
 })
 
